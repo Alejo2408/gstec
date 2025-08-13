@@ -22,7 +22,7 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     
-    const phoneNumber = "5491112345678"; // Tu número en formato internacional
+    const phoneNumber = "5491131750620"; // Tu número en formato internacional sin espacios ni signos +
     const text = `Hola, soy ${formData.name}.
 Teléfono de contacto: ${formData.phone}
 Email: ${formData.email}
@@ -49,7 +49,7 @@ Mensaje: ${formData.message}`;
     {
       icon: Phone,
       title: 'Teléfono',
-      info: '+54 11 1234-5678',
+      info: '+54 9 11 3175-0620',
       description: 'Disponible 24/7 para emergencias'
     },
     {
@@ -154,8 +154,11 @@ Mensaje: ${formData.message}`;
             >
               <h4 className="font-bold text-lg mb-2">🚨 Servicio de Emergencia</h4>
               <p className="mb-3">¿Problema urgente con tu equipo de refrigeración?</p>
-              <button className="bg-white text-red-500 px-6 py-2 rounded-full font-semibold hover:shadow-lg transition-all duration-300">
-                Llamar Ahora: +54 11 1234-5678
+              <button 
+                onClick={() => window.open(`https://wa.me/5491131750620`, "_blank")}
+                className="bg-white text-red-500 px-6 py-2 rounded-full font-semibold hover:shadow-lg transition-all duration-300"
+              >
+                Llamar Ahora: +54 9 11 3175-0620
               </button>
             </motion.div>
           </motion.div>
@@ -209,7 +212,7 @@ Mensaje: ${formData.message}`;
                       onChange={handleChange}
                       required
                       className="w-full px-4 py-3 border border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-300"
-                      placeholder="+54 11 1234-5678"
+                      placeholder="+54 9 11 3175-0620"
                     />
                   </div>
                 </div>

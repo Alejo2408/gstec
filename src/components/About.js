@@ -30,7 +30,7 @@ const About = () => {
   ];
 
   const handleWhatsApp = () => {
-    const phoneNumber = "5491131750620"; // Tu número de WhatsApp
+    const phoneNumber = "001131750620"; // Tu número de WhatsApp
     const message = "Hola, me gustaría solicitar una cotización para sus servicios.";
     const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
     window.open(url, "_blank");

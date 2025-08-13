@@ -21,7 +21,17 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Simulate form submission
+    
+    const phoneNumber = "5491112345678"; // Tu número en formato internacional
+    const text = `Hola, soy ${formData.name}.
+Teléfono de contacto: ${formData.phone}
+Email: ${formData.email}
+Servicio solicitado: ${formData.service}
+Mensaje: ${formData.message}`;
+    
+    const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(text)}`;
+    window.open(url, "_blank");
+
     setIsSubmitted(true);
     setTimeout(() => {
       setIsSubmitted(false);
@@ -172,7 +182,7 @@ const Contact = () => {
                 <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
                   <CheckCircle className="w-8 h-8 text-green-500" />
                 </div>
-                <h4 className="text-xl font-bold text-gray-800 mb-2">¡Mensaje Enviado!</h4>
+                <h4 className="text-xl font-bold text-gray-800 mb-2">¡Mensaje Enviado a WhatsApp!</h4>
                 <p className="text-gray-600">Te contactaremos pronto para brindarte una cotización personalizada.</p>
               </motion.div>
             ) : (

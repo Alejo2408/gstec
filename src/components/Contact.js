@@ -22,7 +22,7 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     
-    const phoneNumber = "5491131750620"; // Tu número en formato internacional sin espacios ni signos +
+    const phoneNumber = "01131750620"; // Tu número en formato internacional sin espacios ni signos +
     const text = `Hola, soy ${formData.name}.
 Teléfono de contacto: ${formData.phone}
 Email: ${formData.email}

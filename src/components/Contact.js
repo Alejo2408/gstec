@@ -259,6 +259,7 @@ Mensaje: ${formData.message}`;
                   ></textarea>
                 </div>
 
+                {/*
                 <motion.button
                   type="submit"
                   className="w-full bg-gradient-to-r from-blue-500 to-cyan-500 text-white py-4 rounded-xl font-semibold text-lg hover:shadow-xl transition-all duration-300 flex items-center justify-center gap-3"
@@ -268,6 +269,8 @@ Mensaje: ${formData.message}`;
                   <Send className="w-5 h-5" />
                   Enviar Solicitud
                 </motion.button>
+                */}
+
               </form>
             )}
           </motion.div>

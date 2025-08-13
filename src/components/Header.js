@@ -30,7 +30,7 @@ const Header = () => {
               </div>
               <div className="flex items-center gap-2">
                 <Mail className="w-4 h-4" />
-                <span>info@techfrio.com</span>
+                <span>info@GSTecFrio.com</span>
               </div>
             </div>
             <div className="flex items-center gap-2">
@@ -49,11 +49,11 @@ const Header = () => {
             whileHover={{ scale: 1.05 }}
           >
             <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-cyan-500 rounded-xl flex items-center justify-center">
-              <span className="text-white font-bold text-xl">TF</span>
+              <span className="text-white font-bold text-xl">GS</span>
             </div>
             <div>
               <h1 className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-cyan-600 bg-clip-text text-transparent">
-                TechFrio
+                GsTecFrio
               </h1>
               <p className="text-gray-500 text-sm">Servicio Técnico Especializado</p>
             </div>

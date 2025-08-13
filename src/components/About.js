@@ -65,7 +65,7 @@ const About = () => {
             </h3>
             
             <p className="text-gray-600 leading-relaxed text-lg">
-              En TechFrio, nos especializamos en brindar soluciones integrales para todos tus 
+              En GSTecFrio, nos especializamos en brindar soluciones integrales para todos tus 
               equipos de refrigeración y climatización. Desde aires acondicionados residenciales 
               hasta complejas cámaras frigoríficas industriales.
             </p>

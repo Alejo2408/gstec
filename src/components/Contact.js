@@ -45,7 +45,7 @@ const Contact = () => {
     {
       icon: Mail,
       title: 'Email',
-      info: 'info@techfrio.com',
+      info: 'info@GSTecFrio.com',
       description: 'Respuesta en menos de 24hs'
     },
     {

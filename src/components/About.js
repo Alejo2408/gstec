@@ -29,6 +29,13 @@ const About = () => {
     }
   ];
 
+  const handleWhatsApp = () => {
+    const phoneNumber = "5491131750620"; // Tu número de WhatsApp
+    const message = "Hola, me gustaría solicitar una cotización para sus servicios.";
+    const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+    window.open(url, "_blank");
+  };
+
   return (
     <section id="nosotros" className="py-20 bg-white">
       <div className="container mx-auto px-4">
@@ -157,6 +164,7 @@ const About = () => {
             Contáctanos hoy mismo y obtén una cotización gratuita para tu proyecto
           </p>
           <motion.button 
+            onClick={handleWhatsApp}
             className="bg-white text-blue-600 px-8 py-4 rounded-full font-semibold text-lg hover:shadow-xl transition-all duration-300"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}

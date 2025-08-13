@@ -78,7 +78,7 @@ const Services = () => {
               viewport={{ once: true }}
               whileHover={{ y: -10 }}
             >
-              <div className={`w-16 h-16 bg-gradient-to-br ${service.color} rounded-2xl flex items-center justify-center mb-6`}>
+              <div className={w-16 h-16 bg-gradient-to-br ${service.color} rounded-2xl flex items-center justify-center mb-6}>
                 <service.icon className="w-8 h-8 text-white" />
               </div>
 
@@ -94,15 +94,13 @@ const Services = () => {
                 ))}
               </ul>
 
-              {/*
               <motion.button 
-                className={`w-full mt-8 bg-gradient-to-r ${service.color} text-white py-3 rounded-xl font-semibold hover:shadow-lg transition-all duration-300`}
+                className={w-full mt-8 bg-gradient-to-r ${service.color} text-white py-3 rounded-xl font-semibold hover:shadow-lg transition-all duration-300}
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.98 }}
               >
                 Solicitar Servicio
               </motion.button>
-              */}
             </motion.div>
           ))}
         </div>

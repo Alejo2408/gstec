@@ -94,6 +94,7 @@ const Services = () => {
                 ))}
               </ul>
 
+              {/*
               <motion.button 
                 className={`w-full mt-8 bg-gradient-to-r ${service.color} text-white py-3 rounded-xl font-semibold hover:shadow-lg transition-all duration-300`}
                 whileHover={{ scale: 1.02 }}
@@ -101,6 +102,7 @@ const Services = () => {
               >
                 Solicitar Servicio
               </motion.button>
+              */}
             </motion.div>
           ))}
         </div>

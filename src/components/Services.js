@@ -9,7 +9,7 @@ const Services = () => {
       title: 'Aire Acondicionado',
       description: 'Instalación, mantenimiento y reparación de equipos de climatización residencial y comercial.',
       features: ['Instalación profesional', 'Mantenimiento preventivo', 'Reparaciones urgentes', 'Carga de gas'],
-      color: 'from-blue-500 to-cyan-500'
+      {/*color: 'from-blue-500 to-cyan-500'
     },
     {
       icon: Settings,
@@ -78,7 +78,7 @@ const Services = () => {
               viewport={{ once: true }}
               whileHover={{ y: -10 }}
             >
-              {/*<div className={w-16 h-16 bg-gradient-to-br ${service.color} rounded-2xl flex items-center justify-center mb-6}>
+              <div className={w-16 h-16 bg-gradient-to-br ${service.color} rounded-2xl flex items-center justify-center mb-6}>
                 <service.icon className="w-8 h-8 text-white" />
               </div>
 

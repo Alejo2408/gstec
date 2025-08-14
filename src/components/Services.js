@@ -94,15 +94,15 @@ const Services = () => {
                 ))}
               </ul>
 
-              {/*<motion.button 
+              <motion.button 
                 className={w-full mt-8 bg-gradient-to-r ${service.color} text-white py-3 rounded-xl font-semibold hover:shadow-lg transition-all duration-300}
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.98 }}
               >
-                Solicitar Servicio
+                {/*Solicitar Servicio
               </motion.button>
             </motion.div>
-          ))}*/}
+          ))}
         </div>
 
         {/* Why Choose Us */}

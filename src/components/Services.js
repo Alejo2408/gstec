@@ -9,7 +9,7 @@ const Services = () => {
       title: 'Aire Acondicionado',
       description: 'Instalación, mantenimiento y reparación de equipos de climatización residencial y comercial.',
       features: ['Instalación profesional', 'Mantenimiento preventivo', 'Reparaciones urgentes', 'Carga de gas'],
-      {/*color: 'from-blue-500 to-cyan-500'
+      color: 'from-blue-500 to-cyan-500'
     },
     {
       icon: Settings,
